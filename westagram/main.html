@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width" />
+  <title>repl.it</title>
+  <link href="style/common.css" rel="stylesheet" type="text/css" />
+  <link href="style/main.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <div class="container">
+    <header>
+      <nav>
+        <div class="header-container">
+          <div class="header-left">
+            <img src="https://s3.ap-northeast-2.amazonaws.com/cdn.wecode.co.kr/bearu/logo.png" alt="" />
+            <div class="line"></div>
+            <img id="logo-text" src="./img/logo_text.png" alt="" />
+          </div>
+          <div class="header-center">
+            <input type="text" placeholder="검색" />
+            <span class="search"></span>
+          </div>
+          <div class="header-right">
+            <img src="https://s3.ap-northeast-2.amazonaws.com/cdn.wecode.co.kr/bearu/explore.png" alt="" />
+            <img src="https://s3.ap-northeast-2.amazonaws.com/cdn.wecode.co.kr/bearu/heart.png" alt="" />
+            <img src="https://s3.ap-northeast-2.amazonaws.com/cdn.wecode.co.kr/bearu/profile.png" alt="" />
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section>
+      <div class="feeds">
+        <article>
+          <div class="article-head">
+            <div class="head-photo"></div>
+            <div class="head-name">Wecode</div>
+            <div class="article-dot">
+              <img src="https://s3.ap-northeast-2.amazonaws.com/cdn.wecode.co.kr/bearu/more.png" alt="">
+            </div>
+          </div>
+          <div class="article-main">
+            <img
+              src="https://scontent-gmp1-1.cdninstagram.com/vp/7dd7d8e61047035d530ec7b8785e0e28/5E2E6E48/t51.2885-15/e35/69366856_2154583161509048_6271804732968189983_n.jpg?_nc_ht=scontent-gmp1-1.cdninstagram.com&_nc_cat=1"
+              alt="" />
+          </div>
+
+          <!--댓글 좋아요 구역 --->
+          <div class="article-imoji">
+            <div class="like-left">
+              <img src="https://s3.ap-northeast-2.amazonaws.com/cdn.wecode.co.kr/bearu/heart.png" alt="" />
+
+              <img src="https://s3.ap-northeast-2.amazonaws.com/cdn.wecode.co.kr/bearu/comment.png" alt="" />
+
+              <img src="https://s3.ap-northeast-2.amazonaws.com/cdn.wecode.co.kr/bearu/share.png" alt="" />
+            </div>
+            <div class="like-right">
+              <img src=https://s3.ap-northeast-2.amazonaws.com/cdn.wecode.co.kr/bearu/bookmark.png alt="">
+            </div>
+          </div>
+          <!---댓글 좋아요 넘버--->
+          <div class="article-like">
+            <div class="like-number">
+              <div class="like-photo"></div>
+              <p class="like-text">
+                <span class="bold">홍길동</span>님 외
+                <span class="bold">10명</span>이 좋아합니다.
+              </p>
+            </div>
+          </div>
+          <!---댓글--->
+          <div class="article-subject">
+            <div class="subject-userName">
+              <span class="bold">xxxxxxxxx</span>
+            </div>
+            <div class="subject-userComment">
+              <p>개발자 커뮤니티 입니다.</p>
+            </div>
+            <span class="more">더 보기</span>
+          </div>
+          <!---댓글 코멘트----->
+          <div class="article-comment">
+            <ul class="comment-ul">
+              <li class="comment">
+                <p class="your-name">Wecode</p>
+                <span class="your-comment">안녕하세요.</span>
+              </li>
+            </ul>
+          </div>
+          <!----댓글 달기--->
+          <div class="article-footer">
+            <div class="comment-div">
+              <input class=comment-input type="text" placeholder="댓글달기">
+            </div>
+            <div>
+            <button class='comment-make'>게시</button>
+          </div>
+          </div>
+        </article>
+      </div>
+      <div class="main-right">
+        <div class="main-wrapper">
+        <!---right-header profile--->
+        <div class="right-header">
+          <div class="header-photo"></div>
+          <div class="header-name">Wecode</div>
+        </div>
+        <!---header story--->
+        <div class="right-story">
+          <div class="story-header">
+            <div class="left-title">스토리</div>
+            <div class="right-title bold">모두 보기</div>
+          </div>
+          <div class="story-list">
+            <ul>
+              <li>
+                <div class="story-photo">
+                  <img src="https://scontent-icn1-1.cdninstagram.com/vp/fe72f0704a8e80eab0e1040e42a4b465/5E0DD110/t51.2885-19/s320x320/67879165_662272640917279_8881524564585086976_n.jpg?_nc_ht=scontent-icn1-1.cdninstagram.com" alt="">
+                </div>
+                <div class="story-name">
+                  <div class="bold name">abc</div>
+                  <div class="story-text">1시간전</div>
+                </div>
+              </li>
+              
+              <li>
+                <div class="story-photo">
+                  <img src= https://scontent-icn1-1.cdninstagram.com/vp/dcca337e93686997df102361db60db2c/5DF4ED4F/t51.2885-19/s320x320/51616861_258531261731722_2335377231565553664_n.jpg?_nc_ht=scontent-icn1-1.cdninstagram.com alt="">
+                </div>
+                <div class="story-name">
+                  <div class="bold name">abc</div>
+                  <div class="story-text">2시간전</div>
+                </div>
+              </li>
+              <li>
+                <div class="story-photo">
+                  <img src=https://scontent-icn1-1.cdninstagram.com/vp/ae8b4e447a9151324a749b4627d887d8/5DF50544/t51.2885-19/s320x320/58004192_2433784366854980_2844436572466577408_n.jpg?_nc_ht=scontent-icn1-1.cdninstagram.com alt="">
+                </div>
+                <div class="story-name">
+                  <div class="bold name">abc</div>
+                  <div class="story-text">3시간전</div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!----회원님을 위한 추천---->
+          <div class="right-recommend">
+            <div class="recommend-header">
+              <div class="partner">회원님을 위한 추천</div>
+              <div class="partner-all bold">모두 보기</div>
+            </div>
+            <div class="recommend-list">
+              <div class="recommend-left">
+                <img src="https://scontent-icn1-1.cdninstagram.com/vp/ae8b4e447a9151324a749b4627d887d8/5DF50544/t51.2885-19/s320x320/58004192_2433784366854980_2844436572466577408_n.jpg?_nc_ht=scontent-icn1-1.cdninstagram.com" alt="">
+              </div>
+            <div class="recommend-center">
+             <div class="recommend-name bold">abkcjd</div>
+             <div class="recommend-text">회원님을 팔로우합니다.</div>
+            </div>
+           <div class="recommend-right">
+               <div class="following">팔로우</div>
+             </div>
+           </div>
+           <div class="recommend-list">
+              <div class="recommend-left">
+                <img src="https://scontent-icn1-1.cdninstagram.com/vp/ae8b4e447a9151324a749b4627d887d8/5DF50544/t51.2885-19/s320x320/58004192_2433784366854980_2844436572466577408_n.jpg?_nc_ht=scontent-icn1-1.cdninstagram.com" alt="">
+              </div>
+            <div class="recommend-center">
+             <div class="recommend-name bold">abkcjd</div>
+             <div class="recommend-text">회원님을 팔로우합니다.</div>
+            </div>
+           <div class="recommend-right">
+               <div class="following">팔로우</div>
+             </div>
+           </div>
+           <div class="recommend-list">
+              <div class="recommend-left">
+                <img src="https://scontent-icn1-1.cdninstagram.com/vp/ae8b4e447a9151324a749b4627d887d8/5DF50544/t51.2885-19/s320x320/58004192_2433784366854980_2844436572466577408_n.jpg?_nc_ht=scontent-icn1-1.cdninstagram.com" alt="">
+              </div>
+            <div class="recommend-center">
+             <div class="recommend-name bold">abkcjd</div>
+             <div class="recommend-text">회원님을 팔로우합니다.</div>
+            </div>
+           <div class="recommend-right">
+               <div class="following">팔로우</div>
+             </div>
+           </div>
+          </div>
+      </div>
+    </section>
+    </main>
+   </div>
+  </div>
+  <script src="js/main.js"></script>
+</body>
+
+</html>

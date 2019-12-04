@@ -1,0 +1,66 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: lightgray;
+}
+.container {
+    border : 1px solid gray;
+    width: 350px;
+    margin: 0 auto;
+    padding: 10px;
+    text-align: center;
+    background: white;
+}
+
+header {
+    padding : 20px 0px 20px 0px;
+}
+header>img {
+    width: 180px;
+}
+
+input {
+    width: 250px;
+    padding: 10px 8px;
+    background-color: #d3d3d333;
+    border-radius: 4px;
+    border: 1px solid gainsboro;
+}
+
+.tel {
+    margin-bottom: 5px;
+}
+
+.log-in {
+    width: 250px;
+    background: #3897F1;
+    opacity: 0.3;
+    color: white;
+    font-size: 14px;
+    border-radius: 4px;
+    padding: 5px 0px;
+    margin: 15px 0 0 0;
+    cursor: pointer;
+    border: none;
+}
+
+.active {
+    background-color: #3897F1;
+    opacity: 1;
+}
+
+footer {
+    margin: 100px 0 10px 0;
+}
+
+footer > a {
+    font-size: 13px;
+    text-decoration: none;
+    color:rgb(20, 87, 150);
+}
+
+footer > p {
+    font-size: 13px;
+    color:rgba(235, 22, 22, 0.767);
+}

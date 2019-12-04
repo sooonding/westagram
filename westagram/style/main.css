@@ -1,0 +1,392 @@
+* {
+    box-sizing: border-box;
+}
+
+html,body {
+    width: 100%;
+    height: 100%;
+}
+body {
+    margin-top: 100px;
+}
+.container {
+    width: 700px;
+    margin: 0 auto;
+}
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    border-bottom:1px solid #676465;
+    background: white;
+    z-index: 1;
+}
+nav {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.header-container {
+    width: 700px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+.header-left {
+    display: flex;
+    align-items: center;
+}
+
+.header-container img {
+    width: 20px;
+}
+#logo-text {
+    width: 104px;
+}
+
+.line {
+    background: black;
+    width: 1px;
+    height: 28px;
+    margin: 0 16px;
+}
+
+.header-center > input {
+    text-align: center;
+}
+
+.header-right img{
+    margin-left: 10px;
+}
+main {
+   width : 100%;
+}
+section {
+    display: flex;
+}
+
+.feeds {
+    width: 60%;
+    margin-right: 28px;
+}
+
+article {
+    border: 1px solid rgb(233, 232, 232);
+}
+/* .article-main {
+    width: 70%;
+} */
+.article-main  img{
+    width: 100%;
+}
+
+.article-head {
+    /* border: 1px solid saddlebrown; */
+    position: relative;
+    display: flex;
+    padding: 16px;
+    background: white;
+}
+
+
+.head-photo {
+    width: 30px;
+    height: 30px;
+    background-image: url("https://scontent-icn1-1.cdninstagram.com/vp/91a4a6cf425350138a196ba4df885b9b/5DFE2D10/t51.2885-19/s150x150/64219646_866712363683753_7365878438877462528_n.jpg?_nc_ht=scontent-icn1-1.cdninstagram.com");
+    background-size: cover;
+    border-radius: 50%;
+}
+
+.head-name {
+    margin: auto 0;
+    font-size: 13px;
+    font-weight: 600px;
+    padding-left: 5px;
+}
+
+.article-dot {
+    position: absolute;
+    right: 0;
+    
+}
+.article-dot img{
+    width: 25px;
+    margin: 5px 10px 0px 0px;
+    cursor: pointer;
+}
+
+.article-imoji {
+    display: flex;
+    justify-content: space-between;
+}
+
+.article-imoji img {
+    width: 25px;
+}
+
+.like-left img{
+    margin-right: 14px;
+}
+
+.like-number {
+    display: flex;
+}
+
+.like-photo {
+    width: 25px;
+    height: 25px;
+    border: 1px solid purple;
+    background-image: url("https://scontent-icn1-1.cdninstagram.com/vp/91a4a6cf425350138a196ba4df885b9b/5DFE2D10/t51.2885-19/s150x150/64219646_866712363683753_7365878438877462528_n.jpg?_nc_ht=scontent-icn1-1.cdninstagram.com");
+    background-size: cover;
+    border-radius: 50%;
+}
+
+.article-imoji,.like-number,.article-subject, .article-comment, .article-footer {
+    padding: 0 16px;
+}
+
+.like-number .like-text {
+    margin: auto 0;
+    padding-left: 10px;
+}
+
+.bold{
+    font-weight: bold;
+}
+.article-subject {
+    display: flex;
+    padding-top: 10px;
+}
+
+.article-subject .subject-userComment {
+    padding-left: 10px;
+}
+
+.article-subject .more {
+    padding-left: 10px;
+    color: rgb(165, 164, 164);
+}
+
+.article-comment {
+    line-height: 18px;
+}
+/* .comment-ul {
+    display: flex;
+} */
+.comment {
+    display: flex;
+}
+.comment.del {
+    display: none;
+}
+
+.your-name {
+    font-weight: bold;
+}
+
+.your-comment {
+    width: 100%;
+    padding-left: 10px;
+}
+
+.article-footer {
+    padding: 10px 10px;
+    border-top: 1px solid #F5F5F5;
+    display: flex;
+    justify-content: space-between;
+}
+
+.comment-input {
+    width: 100%;
+    border: none;
+ }
+.comment-div {
+    width: 90%;
+}
+
+.comment-make {
+    border: none;
+    color: #3897F1;
+    background: none;
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+/* make 선명하게 */
+.light {
+    color: #3897F1;
+    opacity: 1;
+}
+
+
+
+.main-right {
+    position: relative;
+    width: 40%;
+}
+
+.main-wrapper {
+    position:fixed;
+    width: 260px;
+}
+
+.right-header {
+    width: 100%;
+    margin: 12px 0px;
+    display: flex;
+}
+
+.right-header > .header-photo {
+    width: 35px;
+    height: 35px;
+    margin-left: 7px;
+    background-image: url('https://scontent-icn1-1.cdninstagram.com/vp/91a4a6cf425350138a196ba4df885b9b/5DFE2D10/t51.2885-19/s150x150/64219646_866712363683753_7365878438877462528_n.jpg?_nc_ht=scontent-icn1-1.cdninstagram.com');
+    background-size: cover;
+    border-radius: 50%;
+}
+
+.right-header > .header-name {
+    margin: auto 0;
+    padding-left: 10px;
+    font-weight: bold;
+}
+
+.right-story {
+    padding: 0 16px;
+}
+
+.story-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-title {
+    color: rgb(165, 164, 164);
+}
+
+.story-list li {
+    display: flex;
+}
+
+.story-photo img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.story-name,.recommend-center {
+    margin-left: 14px;
+}
+
+.name {
+    padding: 3px 0px 1px 0px;
+}
+.story-text {
+    font-size: 12px;
+    color: rgb(165, 164, 164);
+}
+.right-recommend {
+    padding: 0 16px;
+    margin-top : 16px;
+}
+.recommend-header {
+    display: flex;
+    padding-bottom: 10px;
+    justify-content: space-between;
+}
+
+.partner {
+    color:rgb(165, 164, 164);
+}
+
+.recommend-text {
+    color: rgb(165, 164, 164);
+    font-size: 12px;
+}
+
+.recommend-list {
+    display: flex;
+    position: relative;
+}
+
+.recommend-left img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.following {
+    font-size: 12px;
+    color: #3897F1;
+}
+.recommend-right {
+    right: 0px;
+}
+
+.recommend-right .following {
+    position: absolute;
+    top: 10px;
+    right: +10px;
+}
+
+
+
+/* .like-left {
+    display: flex;
+    justify-content: flex-start;
+}
+.like-left img{
+    margin-right: 14px;
+}
+
+.like-right {
+    display: flex;
+    justify-content: flex-end;
+} */
+
+
+
+
+/* .container {
+    width: 100%;
+}
+
+header ul{
+    display: flex;
+    justify-content: center;
+    border : 1px solid purple
+}
+
+#instagram-logo,#instagram-logo {
+   
+}
+
+header nav li img {
+    width: 20px;
+}
+
+#instagram-text {
+    width: 104px;
+}
+
+.input-search {
+    position: relative;
+}
+.input-search input {
+    text-align: center;
+    padding: 5px;
+}
+
+.input-search .search-image {
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Vector_search_icon.svg/945px-Vector_search_icon.svg.png);
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 5px;
+    top:5px;
+} */
+
