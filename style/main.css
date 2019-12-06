@@ -253,15 +253,20 @@ article {
 }
 
 .right-story {
-    padding: 0 16px;
+    border: 1px solid rgb(230, 230, 230);
+    padding: 0 16px 10px 16px;
+    border-radius: 1.5%;
 }
 
 .story-header {
+    padding: 10px 0px;
     display: flex;
+    border-radius: 0.5px;
     justify-content: space-between;
 }
 
 .left-title {
+    font-size: 13px;
     color: rgb(165, 164, 164);
 }
 
@@ -287,8 +292,14 @@ article {
     color: rgb(165, 164, 164);
 }
 .right-recommend {
-    padding: 0 16px;
+    border: 1px solid rgb(230, 230, 230);
+    border-radius: 1.5%;
+    padding: 10px 16px;
     margin-top : 16px;
+}
+
+.right-title {
+    font-size: 12px;
 }
 .recommend-header {
     display: flex;
@@ -297,7 +308,12 @@ article {
 }
 
 .partner {
+    font-size: 13px;
     color:rgb(165, 164, 164);
+}
+
+.partner-all {
+    font-size: 12px;
 }
 
 .recommend-text {
@@ -330,6 +346,21 @@ article {
     right: +10px;
 }
 
+.footer-li,.footer-span {
+    color : #c7c7c7;
+    font-size: 10px;
+}
+
+.footer-nav {
+    
+    margin: 10px 0 5px 0px;
+}
+.footer-ul {
+    width: 200px;
+}
+.footer-li {
+    display: inline;
+}
 
 
 /* .like-left {
